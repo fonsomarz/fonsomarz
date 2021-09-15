@@ -1,4 +1,7 @@
 body {
+  background-color: #424242;
+}
+.homepage {
   background-image: url("../img/backgroundtall.png");
 }
 /* nav */
@@ -18,15 +21,37 @@ a:link, a:visited {
 }
 .navbar {
   background-color: #2F415E;
-  /* text-decoration: none;
-  color: aliceblue; */
+
 }
 
+/* End-Nav */
+
+/* homepage */
 .Mlogo {
   margin-top: 20vh;
   margin-bottom: 20vh;
   padding: 100px;
 }
+/* End-of-Homepage */
+
+/* Projects */
+
+/* End-of-Projects */
+
+/* Photos */
+/* End-of-Photos */
+
+/* Real-Estate */
+/* End-of-Real-Estate */
+
+/* Videos */
+/* End-of-Videos */
+
+/* About */
+/* End-of-About */
+
+/* Contact */
+/* End-of-contats */
 
 /* footer */
 .foot {
@@ -38,9 +63,9 @@ a:link, a:visited {
     width: 100%;
     height: 120px;          
   }
-}
 
 #instagramLogo {
   background: rgba(0, 0, 0, 0);
 
 }
+/* End-of-Footer */
