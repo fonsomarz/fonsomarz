@@ -1,51 +1,125 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="W4B final/CSS/projects_style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/5a161f856c.js" crossorigin="anonymous"></script>
-    <title>Projects</title>
-    <link rel = "icon" href = "W4B final/img/FavIcon.png">
-</head>
-<body>
-    <nav>
-     <div>
-        <div class="littleM"><a href="index.html"><img src="W4B final/img/logo_M.png" alt="logo_m" width="25" height="25"></a>
-        </div>
-         <ul class="list">
-            <li><a class="contact" href="contact.html">Contact</a></li>
-            <li><a class="about" href="about.html">About</a></li>
-            <li><a class="projects" href="projects.html">Projects</a></li>
-            <li><a class="home" href="index.html">Home</a></li>
-         </ul>
-     </div>
-    </nav>
-    <div class="photos">
-        <input class="Photosbutton"type="button" onclick="window.location.href='Photos.html';" value="Photos" />
-            <img src="W4B final/projects/img/IMG_4803-2.jpg" height="1080px" width="1920px" alt="">
-    </div>
-    <div class="RealEstate"> 
-        <input class="RealEstatebutton"type="button" onclick="window.location.href='Realestate.html';" value="Real Estate" />
-            <img src="W4B final/projects/img/realestate/IMG_1023.jpg" height="1080px" width="1920px" alt="">
-    </div>
-    <div class="videos">
-        <input class="Videobutton "type="button" onclick="window.location.href='videos.html';" value="Videos" />
-            <video autoplay muted loop src="W4B final/projects/img/Video.mp4" height="1080px" width="1920px"></video>
-    </div>
-    
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-     <div class="container">
-        <Footer class="foot">
-            <div class="insta">
-                <a id="instagramLogo" href="https://www.instagram.com/fonsomarz/?hl=en"target="_blank">
-             <i class="fab fa-instagram"></i></a>
-            </div>
-         <p>copyright &copy; <script>document.write(new Date().getFullYear());</script> MARZIMAGE</p>
-     </Footer>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- My style sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5a161f856c.js" crossorigin="anonymous"></script>
+    <title>Contact</title>
+    <link rel = "icon" href = "img/FavIcon.png">
+  </head>
+  <body class="homepage">
+<!-- Nav -->
+
+<nav class="navbar sticky-top navbar-expand-xl navbar-dark ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="img/logo_M.png" alt="logo_m" width="25" height="25"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  active" href="projects.html">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
-</body>
+  </div>
+</nav>
+
+<!-- Nav End -->
+
+<!-- Cover/hero -->
+<div id="jumbotron" class=" parallax container-fluid py-5 d-flex flex-column justify-content-center align-items-center">
+    <h1 class="display-1 text-white"> This is Road Trip</h1>
+</div>
+
+<div id="jumbotron2" class=" parallax py-5 d-flex flex-column justify-content-center align-items-center">
+  <div class="text-white container-fluid py-5 d-flex flex-column justify-content-center align-items-center words">
+    <div><h1 class=" headers">Lorem ipsum dolor sit.</h1>
+      <p class=" d-flex justify-content-center">Lorem ipsum</p>
+      </div>
+  <p class=" p-5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque voluptatem nam, iure eaque est impedit nesciunt beatae vel esse molestias reprehenderit molestiae sint quis libero nulla adipisci accusamus labore? Laudantium?</p>
+  <button type="button" class="btn btn-secondary">learn more</button>
+  </div>
+</div>
+
+<div id="jumbotron3" class=" parallax py-5 d-flex flex-column justify-content-center align-items-center">
+  <div class="text-white container-fluid py-5 d-flex flex-column justify-content-center align-items-center words">
+    <div><h1 class=" headers">Lorem ipsum dolor sit.</h1>
+      <p class=" d-flex justify-content-center">Lorem ipsum</p>
+      </div>
+  <p class=" p-5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque voluptatem nam, iure eaque est impedit nesciunt beatae vel esse molestias reprehenderit molestiae sint quis libero nulla adipisci accusamus labore? Laudantium?</p>
+  <button type="button" class="btn btn-secondary">learn more</button>
+  </div>
+
+</div>
+
+<div id="jumbotron4" class=" parallax py-5 d-flex flex-column justify-content-center align-items-center">
+  <div class="text-white container-fluid py-5 d-flex flex-column justify-content-center align-items-center words">
+    <div><h1 class=" headers">Lorem ipsum dolor sit.</h1>
+      <p class=" d-flex justify-content-center">Lorem ipsum</p>
+      </div>
+  <p class=" p-5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque voluptatem nam, iure eaque est impedit nesciunt beatae vel esse molestias reprehenderit molestiae sint quis libero nulla adipisci accusamus labore? Laudantium?</p>
+  <button type="button" class="btn btn-secondary">learn more</button>
+  </div>
+
+</div>
+
+<div id="jumbotron5" class=" parallax py-5 d-flex flex-column justify-content-center align-items-center">
+  <div class="text-white container-fluid py-5 d-flex flex-column justify-content-center align-items-center words">
+    <div><h1 class=" headers">Lorem ipsum dolor sit.</h1>
+    <p class=" d-flex justify-content-center">Lorem ipsum</p>
+    </div>
+  <p class="p-5"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque voluptatem nam, iure eaque est impedit nesciunt beatae vel esse molestias reprehenderit molestiae sint quis libero nulla adipisci accusamus labore? Laudantium?</p>
+  <button type="button" class="btn btn-secondary">learn more</button>
+  </div>
+
+</div>
+<!-- End Cover/hero -->
+
+<!-- footer -->
+
+<div class="container-fluid d-flex justify-content-center">
+</div>
+    <Footer class="foot font-Montserrat p-4 text-center">
+        <p class=" m-0">Copyright &copy; <script>document.write(new Date().getFullYear());</script> MARZIMAGE</p>
+      </div>
+      <div class="insta container-fluid d-flex justify-content-center">
+        <a id="instagramLogo" href="https://www.instagram.com/fonsomarz/?hl=en"target="_blank">
+     <i class="fab fa-instagram text-white display-6"></i></a>
+    </Footer>
+  </div>
+</div>
+
+<!-- End footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
 </html>
