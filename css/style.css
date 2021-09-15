@@ -2,12 +2,13 @@ body {
   background-color: #424242;
 }
 .homepage {
-  background-image: url("../img/DJI_0070.jpg");
+  background-image: url("../img/DJI_0070-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 /* nav */
-.littleM a:hover {
+#littleM a:hover {
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -20,11 +21,16 @@ a:link, a:visited {
   text-align: center;
   text-decoration: none; 
   float: right;
+
 }
 .navbar {
   background-color: #2F415E;
 
 }
+
+/* a:hover, a:active {
+  background-color: #424242;
+} */
 
 /* End-Nav */
 
