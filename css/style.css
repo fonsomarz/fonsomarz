@@ -45,25 +45,54 @@ a:link, a:visited {
 /* Projects */
 
 #jumbotron1 {
-  background-image: url('') ;
-
-  height: 50vh;
+  background-image: url('/img/projects/IMG_4803-2.jpg');
+  background-position: center;
+  height: 75vh;
   margin-top: 0%;
 
 }
 
-#jumbotron2 {
-  background-image: url('https://images.unsplash.com/photo-1482446439224-59276c41a5fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80') ;
+/* btn */
+.Photosbutton{
+  background-color: rgba(66, 66, 66, 0.5);
+  border-radius: 25px;
+  font-size: 75px;
+  border: none;
+  width: 370px;
+}
 
-  height: 50vh;
+.Photosbutton:hover{
+  background-color: #2F415E;
+    font-size: 80px;
+}
+
+.real{
+  background-color: rgba(66, 66, 66, 0.5);
+  border-radius: 25px;
+  font-size: 70px;
+  border: none;
+  width: 425px;
+  height: 125px;
+}
+
+.real:hover{
+  background-color: #2F415E;
+    font-size: 73px;
+}
+/* End btn */
+
+#jumbotron2 {
+  background-image: url('/img/projects/IMG_1023.jpg') ;
+
+  height: 75vh;
   margin-top: 0%;
 
 }
 
 #jumbotron3 {
-  background-image: url('https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2850&q=80') ;
+  background-image: url('/img/projects/DSC09195.jpg') ;
 
-  height: 50vh;
+  height: 75vh;
   margin-top: 0%;
 
 }
