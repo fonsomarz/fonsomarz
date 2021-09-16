@@ -149,9 +149,9 @@ a:link, a:visited {
 }
 
 .BigCard {
-  height: 550px;
+  height: 600px;
   border-radius: 25px;
-  margin-top: 50px !important;
+  margin-top: 25vh;
 }
   
  .words {
@@ -165,8 +165,9 @@ a:link, a:visited {
 }
 
 .button {
-  margin: 800px;
-  width: 100px;
+    margin-left: 700px;
+    margin-right: 20px;
+    width: 100px;
 }
  
 
@@ -191,8 +192,6 @@ a:link, a:visited {
 .button {
   display: flex;
   justify-content: end;
-  float: inline-end;
-  margin: 100px;
 }
 
   }
@@ -200,6 +199,12 @@ a:link, a:visited {
 /* End-of-About */
 
 /* Contact */
+
+.infobox {
+  width: 500px;
+  padding-right: 25px;
+}
+
 /* End-of-contats */
 
 /* footer */
