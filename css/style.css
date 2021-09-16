@@ -110,6 +110,12 @@ a:link, a:visited {
 /* End-of-Projects */
 
 /* Photos */
+
+.call {
+  text-align: center;
+  margin-bottom: 300px;
+}
+
 /* End-of-Photos */
 
 /* Price */
@@ -117,16 +123,14 @@ a:link, a:visited {
   background-image: linear-gradient(180deg, #eee, #fff 100px, #fff);
 }
 
-.Pcontainer {
-  max-width: 960px;
+.pricing-header {
+  margin-bottom: 25px;
 }
 
-.Ppricing-header {
-  max-width: 700px;
-}
 
-.Pborder {
-  border: #2F415E solid 1px;
+.priceCard {
+margin-top: 5vh;
+padding: 10%;
 }
 
 /* End-of-Price */
@@ -141,17 +145,24 @@ a:link, a:visited {
 
 
 .aboutpage {
-  background-image: url('/img/Cover.png');
+  background-image: url('/img/About/about.png');
+  margin-bottom: 310px;
+  background-position: bottom;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  
   width: 100%;
   border: none;
 }
 
 .BigCard {
-  height: 600px;
+  height: 700px;
   border-radius: 25px;
   margin-top: 25vh;
+}
+
+.textcolor {
+  color: #424242;
 }
   
  .words {
@@ -174,7 +185,7 @@ a:link, a:visited {
   @media (max-width: 1000.98px) { 
 
 .BigCard {
-  height: 800px;
+  height: 1000px;
   border-radius: 25px;
 }
       
@@ -200,9 +211,27 @@ a:link, a:visited {
 
 /* Contact */
 
+.contactpage {
+  background-image: url(/img/Contact/lgcontact.png);
+  margin-bottom: 190px;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .infobox {
-  width: 500px;
+  width: 800px;
   padding-right: 25px;
+}
+
+.envelope {
+  color: #2F415E;
+}
+
+@media (max-width: 700.98px) {
+  .infobox {
+    width: 500px;
+  }
 }
 
 /* End-of-contats */

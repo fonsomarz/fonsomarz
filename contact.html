@@ -16,7 +16,7 @@
     <title>Contact</title>
     <link rel = "icon" href = "img/FavIcon.png">
   </head>
-  <body class="contactpage">
+  <body class="contactpage ">
 <!-- Nav -->
 
 <nav class="navbar sticky-top navbar-expand-xl navbar-dark ">
@@ -57,9 +57,9 @@
           <div class="form-group">
             <div class="input-group">
               <div class="input-group-prepend">
-                <span class="input-group-text bg-white"><i class="fa fa-user"></i>&nbsp</span>
+                <span class="input-group-text bg-white envelope"><i class="fa fa-user"></i>&nbsp</span>
               </div>
-              <input name="name" type="name" placeholder="Name" class="form-control border-left-0" required>
+              <input name="name" type="name" placeholder="Name" class="form-control border-left-0 " required>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@
           <div class="form-group">
             <div class="input-group">
               <div class="input-group-prepend">
-                <span class="input-group-text bg-white"><i class="fa fa-envelope"></i></span>
+                <span class="input-group-text bg-white"><i class="fa fa-envelope p-1 envelope"></i></span>
               </div>
               <input name="email" type="email" placeholder="Email" class="form-control border-left-0" required>
             </div>
@@ -77,26 +77,28 @@
       </div>
       
 
-      <div class="form-group">
+      <div class="form-group mt-3">
         <textarea class="form-control" id="message" rows="5" placeholder="Enter message" required></textarea>
       </div>
       
       <div class="form-group">
-        <label for="dropdown">How did you hear about us?</label>
+        <label class=" text-light" for="dropdown">How did you hear about us?</label>
         <select name="heard_about_us_on" class="form-control" id="dropdown" required>
-          <option>Company Site</option>
+          <option>Select one...</option>
+          <option>instagram</option>
           <option>Google</option>
-          <option>Bing</option>
-          <option>Angel.co</option>
+          <option>Twitter</option>
+          <option>YouTube</option>
           <option>Other...</option>
         </select>
       </div>
 
-      
-      <button type="submit" class="btn btn-primary float-right">
-        <i class="fa fa-paper-plane"></i> 
+      <div class="">
+      <button type="submit" class="btn btn-light btn-outline-dark float-right mt-3 envelope ">
+        <i class="fa fa-paper-plane envelope"></i> 
         Send
       </button>
+    </div>
     </form>
   </div>
 </div>
